@@ -1,0 +1,47 @@
+* { 
+    padding:0 ;
+    margin: 0;
+    
+}
+body {  
+    background-image: linear-gradient(#FA0BFF,#FFFF );
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100%;
+}
+.userimg { 
+    margin-top: 3rem;
+    text-align: center;
+}
+.userimg h1 { 
+    margin-top: 0.7rem;
+}
+.userimg h2 { 
+    margin-top: 0.3rem;
+}
+.imgpic { 
+    margin-top: 2rem;
+    text-align: center;
+}
+.Birthday { 
+    text-align: center;
+}
+.Birthday img  { 
+    text-align: center;
+    margin: 0.5rem;
+}
+@media only screen and (max-width:500px){
+.userimg h1,h2 { 
+    font-size: 1.2rem;
+}
+.container { 
+    position: relative;
+}
+img { 
+    max-width: 100%;
+}
+.imgpic img{ 
+    border: 2px solid red;
+}
+}   
